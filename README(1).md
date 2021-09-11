@@ -19,17 +19,7 @@ This project is developed to give insights of current covid-19 cases of India as
 - State wise data in tabular format which includes total active cases, total deaths, total recover cases.
 - Shows total number of testings and total negative and positive testings.
 
-  
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-  
-## Demo
-
-Insert gif or link to demo
-
-  
+ 
 ## FAQ
 
 #### Q. Is this web application fetches live data?
