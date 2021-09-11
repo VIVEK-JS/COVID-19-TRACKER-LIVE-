@@ -1,0 +1,142 @@
+* {
+    margin:0;
+    padding:0;
+}
+html, body{
+    height: 100%;
+    background-color: #dae5ec;   
+    font-family: 'Kaisei Tokumin', serif; 
+}
+
+
+header{
+    background-color:#fbfbfc;
+    display: none;
+}
+nav{
+    padding-left: 30px;
+}
+
+.header-text{
+    font-family: 'Kaisei Tokumin', serif;
+    font-weight: 1000; 
+    font-size: larger;  
+}
+
+.body-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.txt-red{
+    color: red;
+    font-size: x-large;
+}
+section{
+    margin-top: 50px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display:none;
+    
+}
+.card.card1{
+    margin-top: 20px;
+    overflow: hidden;
+    width: 20rem;
+    background-color:  lightskyblue;
+    box-shadow: -10px 10px 20px 0 ;
+    border-radius: .50rem;
+    
+}
+#cases-total:hover{
+    color: tomato;
+}
+#cases-active:hover{
+    color: blue;
+}
+#cases-recovered:hover{
+    color: lightgreen;
+}
+#cases-deaths:hover{
+    color: black;
+}
+.card-body{
+    background-color:#fff;
+    padding: 25px;
+}
+.txt-redd{
+    color:red;
+    font-size: 40px;
+    font-weight: 700;
+}
+.txt-recover{
+    color:#4b74ff;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.txt-recoverr{
+    color: #4b74ff;
+    font-size: x-large;
+}
+.num-active{
+    color:#2ba746;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.txt-active{
+    color: #2ba746;
+    font-size: x-large;
+}
+
+.num-deaths{
+    color:#6d767e;
+    font-size: 40px;
+    font-weight: 700;
+}
+.txt-deaths{
+    color: #6d767e;
+    font-size: x-large;
+}
+.d-flex{
+    height: 100%;
+    display: block;
+}
+.dont-show{
+    display: none;
+}
+.table-container{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 500px;
+    display: none;
+}
+.table-responsive{
+    width: 100%;
+    overflow: auto;
+}
+
+.table123{
+    background-color: white;
+    height: 100%;
+    overflow: auto;
+    border-style: groove;
+    border-radius: .50rem;
+}
+td{
+font: bolder;
+}
+.logo-img{
+    height: 15px;
+    width: 20px;
+}
